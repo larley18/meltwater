@@ -1,0 +1,21 @@
+#video1{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	z-index: -1;
+
+}
+
+#div1{
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#overlay{
+
+}
+
