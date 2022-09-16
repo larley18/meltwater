@@ -43,9 +43,7 @@ text-align: center;
 
 .sub{
 	background-color: #fff;
-
-
-
+	
 }
 
 .grid-container{
@@ -53,8 +51,7 @@ text-align: center;
 	grid-template-columns:58vh 58vh 58vh;
 	column-gap: 30px;
 	padding-left:25px;
-
-
+	letter-spacing: 1px;
 }
 
 #maindiv{
@@ -65,4 +62,30 @@ text-align: center;
 	background-blend-mode: overlay;
 	margin-top: 50px;
 
+}
+
+#para{
+	word-spacing: 5px;
+	padding: 30px 45px 30px 45px;
+	font-size: 18px;
+	line-height: 30px;
+
+}
+
+#head2{
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#btn2{
+	margin-left: 150px;
+	padding: 5px 10px 5px 10px;
+
+}
+
+#link1{
+	color: #fff;
+	 text-decoration: none;
+	  font-size: 18px;
 }
