@@ -43,6 +43,7 @@ text-align: center;
 
 .sub{
 	background-color: #fff;
+
 	
 }
 
@@ -88,4 +89,27 @@ text-align: center;
 	color: #fff;
 	 text-decoration: none;
 	  font-size: 18px;
+}
+
+#bigbox{
+	margin-top: 100px;
+
+}
+
+#smallbox{
+	margin: 30px;
+	padding:60px 20px 20px 40px;
+
+}
+
+#impact{
+	width: 30%;
+	font-size: 40px;
+	font-weight: 10px;
+	height: 20vh;
+	padding: 60px  ;
+	margin-left: 510px;
+	margin-top: 30px;
+
+
 }
