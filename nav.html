@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg bg-light " >
+<nav class="navbar fixed-top navbar-expand-lg bg-light " >
 
 	<div class="container-fluid navbar-header">
 
@@ -136,73 +136,39 @@
     </div>
 	</div>
 	</nav>
-	<section>
-	<div id="container"> 
-    <video autoplay="autoplay" muted="muted" loop="loop" id="video1" >
-	<source src="./asset/video.mp4" type="video/mp4">
+	<div class="container-fluid" 
+	style="height: 80vh;
+	 display: flex; 
+	 align-content: center; 
+	 justify-content: center;
+    height: 100vh;
+     overflow: hidden;
+      position: relative;"> 
+
+	<video autoplay="autoplay" muted="muted" loop="loop" id="video1" style="position: fixed;
+	min-width: 100%; min-height: 100%;overflow: hidden; z-index: -1;">
+	<source src="./asset/business.mp4" type="video/mp4">
 	</video>
 
-	 <div id="div1" >
+	<div style="color: #fff; 
+	 height: 50vh;
+	 font-size: 50px; 
+	 position: absolute; 
+	 left: 70px;
+	 bottom: 50px; 
+	 padding: 30px; 
+	 letter-spacing: 2px;  ">
 		
 	 <strong>
 		 Become a globally <br> successful tech <br> entrepreneur <br>
 	</strong>
 		 
-	<button class="btn bg-info" style="padding: 10px 40px" > 
-	 <a style="color: white; 
-	 font-size: 20px; 
-	 text-decoration: none;
-	 " href="#"> Apply</a> 
+	<button class="btn bg-primary" style="padding: 5px 40px" > 
+	 <a style="color: white; font-size: 20px" href="#"> Apply</a> 
 	</button>
-	</div> 
-
-	
+ 	</div>
     </div>
-    </section>
-	<div class="container " id="div2">
-		<h3 id="head"> What we do </h3> 
-		<p>MEST is an Africa-wide technology enterpreneur training program, internal seed fund, and network of hubs offering  incubation for technology startups in Africa. </p>
-		<p id="break"> For young aspiring and established African entrepreneurs, MEST Africa provides the skills, mindset, and provides the skills, mindset, and experiences to build a globally successful tech company. Beyond tech and entrepreneurial skills training, MEST Africa provides a real-world advantage to entreprneurs through funding, business incubation, and access to a global tech network.</p>
 	</div>
-	<div class="container-fluid  py-5 px-5"  id="maindiv" style="height: 85vh">
-	<div  class="grid-container"  style="height: 75vh"> 
-		<div class="sub">
-			<img src="./asset/picture 1.png" style=" margin-left: 80px;">
-			<h3> We provide skills in Tech Entrepreneurship</h3>
-			<p>Prepare yourself for the rigors of entrepreneurship with our fully sponsored, graduate-level program in Software Development and Business</p>
-			
-			<button class="btn btn-info">
-				
-				<a href="#" style="color: #fff"> Learn More </a>
-			
-			</button>
-		</div>
-		<div class="sub">
-			<img src="./asset/picture2.png" style="margin-left: 80px;"> 
-			<h3> We support early-stage starups to take off</h3>
-			<p> Get the opportunity to launch your technology business with seed funding between $50k-$250k, incubation, and access to a global tech community.</p>
-		
-		<button class="btn btn-info">
-
-			<a href="#" style="color: #fff"> Learn More </a>
-		
-			</button>
-
-		</div>
-		<div class="sub">
-			<img src="./asset/picture3.png" style="margin-left: 80px;">
-			<h3> We bring the tech & startup community together</h3>
-			<p> Our Hubs provide startups with business support & networking across the startup lifecycle and also serve as ecosystem centers for the tech community.</p>
-			<button class="btn btn-info">
-			
-            <a href="#" style="color: #fff"> Learn More </a>	
-			
-			</button>
-		</div>
-
-	</div>
-   </div>
-
 
 
 

@@ -1,124 +1,145 @@
-.font{
-	font-family: 'Montserrat', sans-serif;
-	color: #000;
+.font {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
 }
 
-
-
-
-#video1{
+#video1 {
   position: absolute;
   right: 0;
   top: 0;
   left: 0;
   overflow: hidden;
   z-index: -1;
-  width: 100%
+  width: 100%;
 }
 
-#div1{
-color: #fff; 
-height: 50vh;
-font-size: 50px; 
-padding: 30px;
-letter-spacing: 2px;
-
+#div1 {
+  color: #fff;
+  height: 50vh;
+  font-size: 50px;
+  padding: 30px;
+  letter-spacing: 2px;
 }
 
-#container{
-display: flex; 
-justify-content: flex-start;
-align-items: flex-end;
-height: 80vh;
-overflow: hidden;
-
+#container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 80vh;
+  overflow: hidden;
 }
 
-#div2{
-	height: 45vh;
-margin-top: 200px;
-letter-spacing: 1px;
-padding: 50px 130px;
-/*width: 100%;*/
-line-height: 35px;
-font-size: 17px;
+#div2 {
+  height: 45vh;
+  margin-top: 200px;
+  letter-spacing: 1px;
+  padding: 50px 130px;
+  /*width: 100%;*/
+  line-height: 35px;
+  font-size: 17px;
 }
 
-#head{
-font-size: 40px;
-text-align: center;
+#head {
+  font-size: 40px;
+  text-align: center;
 }
 
-.sub{
-	background-color: #fff;
-
-	
+.sub {
+  background-color: #fff;
 }
 
-.grid-container{
-	display: grid;
-	grid-template-columns:58vh 58vh 58vh;
-	column-gap: 30px;
-	padding-left:25px;
-	letter-spacing: 1px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 58vh 58vh 58vh;
+  column-gap: 30px;
+  padding-left: 25px;
+  letter-spacing: 1px;
 }
 
-#maindiv{
-	background-image: url(./asset/background2.png);
-	background-size: cover;
-	background-position: center;
-	background-color: rgba(0,0,0,0.6);
-	background-blend-mode: overlay;
-	margin-top: 50px;
-
+#maindiv {
+  background-image: url(./asset/background2.png);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  margin-top: 50px;
 }
 
-#para{
-	word-spacing: 5px;
-	padding: 20px 45px 20px 45px;
-	font-size: 16px;
-	line-height: 30px;
-
+#para {
+  word-spacing: 5px;
+  padding: 20px 45px 20px 45px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
-#head2{
-	/*width: 100%;*/
-	text-align: center;
-	padding-top: 25px;
+#head2 {
+  /*width: 100%;*/
+  text-align: center;
+  padding-top: 25px;
 }
 
-#btn2{
-	margin-left: 150px;
-	padding: 5px 10px 5px 10px;
-	margin-bottom: 20px;
-
+#btn2 {
+  margin-left: 150px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 20px;
 }
 
-#link1{
-	color: #fff;
-	 text-decoration: none;
-	  font-size: 18px;
+#link1 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-#bigbox{
-	margin-top: 100px;
-
+#bigbox {
+  margin-top: 100px;
 }
 
-#smallbox{
-	margin: 30px;
-	padding:60px 20px 20px 40px;
-
+#smallbox {
+  margin: 30px;
+  padding: 60px 20px 20px 40px;
 }
 
-#impact{
-	width: 30%;
-	font-size: 40px;
-	font-weight: 10px;
-	height: 20vh;
-	padding: 60px  ;
-	margin-left: 510px;
-	margin-top: 30px;
+#impact {
+  width: 30%;
+  font-size: 40px;
+  font-weight: 10px;
+  height: 20vh;
+  padding: 60px;
+  margin-left: 510px;
+  margin-top: 30px;
+}
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: brown;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: violet;
+  }
 }
