@@ -1,3 +1,11 @@
+.font{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+
+
+
 #video1{
   position: absolute;
   right: 0;
@@ -31,7 +39,7 @@ overflow: hidden;
 margin-top: 200px;
 letter-spacing: 1px;
 padding: 50px 130px;
-width: 100%;
+/*width: 100%;*/
 line-height: 35px;
 font-size: 17px;
 }
@@ -67,14 +75,14 @@ text-align: center;
 
 #para{
 	word-spacing: 5px;
-	padding: 30px 45px 30px 45px;
-	font-size: 18px;
+	padding: 20px 45px 20px 45px;
+	font-size: 16px;
 	line-height: 30px;
 
 }
 
 #head2{
-	width: 100%;
+	/*width: 100%;*/
 	text-align: center;
 	padding-top: 25px;
 }
@@ -82,6 +90,7 @@ text-align: center;
 #btn2{
 	margin-left: 150px;
 	padding: 5px 10px 5px 10px;
+	margin-bottom: 20px;
 
 }
 
