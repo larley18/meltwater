@@ -14,7 +14,7 @@
 }
 
 #div1 {
-  color: #fff;
+  color: #000;
   height: 50vh;
   font-size: 50px;
   padding: 30px;
@@ -111,12 +111,19 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
- 
+ .navbar .nav-item {
+	display: flex;
+	justify-content: right;
+	
+ }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
+  .navbar .nav-item {
+	display: flex;
+	justify-content: right;
+	
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
