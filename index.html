@@ -14,17 +14,17 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
-	<nav class="navbar sticky-top navbar-expand-lg  ">
+<body class="font">
+	<nav class="navbar sticky-top navbar-expand-lg bg-light  ">
 
 		<div class="container-fluid navbar-header">
 
-			<a class="navbar-brand pl-3" href="#">
-				<img src="./asset/mestlogo.png">
+			<a class="navbar-brand pl-3 " href="#">
+				<img src="./asset/mestlogo.png" class="image ">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#clementnav"
 				aria-controls="clementnav" aria-expanded="true" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
 
 			</button>
 			<div id="clementnav" class="collapse navbar-collapse  justify-content-end ">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav ">
 
 					<li class="nav-item ">
 
@@ -132,25 +132,20 @@
 				<source src="./asset/video.mp4" type="video/mp4">
 			</video>
 
-			<div id="div1">
-			
-			<p class="display-3">
-				Become a globally <br> successful tech <br> entrepreneur <br>
-			</p>
-
-				<button class="btn bg-info" style="padding: 10px 40px">
-					<a style="color: white; 
-	 font-size: 20px; 
-	 text-decoration: none;
-	 " href="#"> Apply</a>
+			<div class="div1">
+				<p class="h2">
+					Become a globally <br> successful tech <br> entrepreneur <br>
+				</p>
+			<button class="btn bg-info">
+				<a href="#" class="link"> Apply</a>
 				</button>
 			</div>
 
 		</div>
 	</section>
 
-	<!-- <div class="container " id="div2">
-		<h3 id="head"> What we do </h3>
+	<div class="container " id="div2">
+		<p class="h3" id="head">What we do</p>
 		<p>MEST is an Africa-wide technology enterpreneur training program, internal seed fund, and network of hubs
 			offering incubation for technology startups in Africa. </p>
 
@@ -161,16 +156,16 @@
 
 	</div>
 
-	<div class="container-fluid  py-5 px-5" id="maindiv" style="height: 85vh">
+	<div class="container-fluid" id="maindiv">
 
-		<div class="grid-container" style="height: 75vh">
+		<div class=" container-fluid row " id="row1">
 
-			<div class="sub">
+			<div class=" col col-sm-3 col-md-3 col-lg-3 col-xl-3 bg-white" id="column">
 
-				<img src="./asset/picture 1.png" style=" margin-left: 80px;">
-
-				<h4 id="head2"> We provide skills in Tech Entrepreneurship</h4>
-
+				<img src="./asset/picture 1.png" class="img2">
+				<p class="h4" id="head2">
+					We provide skills in Tech Entrepreneurship
+				</p>
 				<p id="para">Prepare yourself for the rigors of entrepreneurship with our fully sponsored,
 					graduate-level program in Software Development and Business</p>
 
@@ -181,11 +176,13 @@
 				</button>
 			</div>
 
-			<div class="sub">
+			<div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3  bg-white" id="column">
 
-				<img src="./asset/picture2.png" style="margin-left: 80px;">
+				<img src="./asset/picture2.png" class="img2">
 
-				<h4 id="head2"> We support early-stage startups to take off</h4>
+				<p class="h4" id="head2">
+					We support early-stage startups to take off
+				</p>
 
 				<p id="para"> Get the opportunity to launch your technology business with seed funding between
 					$50k-$250k, incubation, and access to a global tech community.</p>
@@ -198,16 +195,17 @@
 
 			</div>
 
-			<div class="sub">
+			<div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3  bg-white" id="column">
+				<img src="./asset/picture3.png" class="img2">
+				<p class="h4" id="head2">
+					We bring the tech & startup community together
 
-				<img src="./asset/picture3.png">
-
-				<h4 id="head2"> We bring the tech & startup community together</h4>
+				</p>
 
 				<p id="para"> Our Hubs provide startups with business support & networking across the startup lifecycle
 					and also serve as ecosystem centers for the tech community.</p>
 
-				<button class="btn btn-info" id="btn2" style="margin-left: 90px">
+				<button class="btn btn-info" id="btn2">
 
 					<a href="#" id="link1"> Learn More </a>
 
@@ -218,39 +216,43 @@
 	</div>
 	<div class="container-fluid " style="height: 80vh">
 
-		<div id="impact" class="border-bottom border-dark"> Our impact </div>
+		<div id="impact" class="border-bottom border-dark "> Our impact </div>
 
 		<div class="container-fluid row justify-content-center" style="height: 40vh" id="bigbox">
 
-			<div class="col-2 border border-5 border-dark" id="smallbox">
+			<div class=" col-md-2 col-sm-2 col-lg-2 border border-5 border-dark" id="smallbox">
 
 				<h3 style="font-size: 60px">1000+</h3>
 
 				<p style="font-size: 18px"> People Trained</p>
 			</div>
 
-			<div class="col-2   border border-5 border-dark" id="smallbox">
+			<div class=" col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark" id="smallbox">
 				<h3 style="font-size: 60px">80+</h3>
 				<p style="font-size: 18px">Businesses Funded</p>
 			</div>
 
-			<div class="col-2 border border-5  border-dark" id="smallbox">
+			<div class=" col-md-2  col-sm-2 col-lg-2 col-xl-2 border border-5  border-dark" id="smallbox">
 				<h3 style="font-size:60px">30</h3>
 				<p style="font-size: 18px">Countries reached</p>
 			</div>
 
-			<div class="col-2  border border-5 border-dark" id="smallbox">
+			<div class=" col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark" id="smallbox">
 				<p class="h3 text- " style="font-size: 3.5rem">
 					750+
 				</p>
 				<p style="font-size: 18px">Jobs Created</p>
 			</div>
 		</div>
-	</div> --> -->
+	</div>
+	<div>
+	
+	</div>
+
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
 		crossorigin="anonymous"></script>
 </body>
 
-</html> -->
+</html>

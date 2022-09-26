@@ -1,6 +1,5 @@
 .font {
   font-family: "Montserrat", sans-serif;
-  color: #000;
 }
 
 #video1 {
@@ -13,20 +12,31 @@
   width: 100%;
 }
 
-#div1 {
-  color: #000;
-  height: 50vh;
-  font-size: 50px;
-  padding: 30px;
-  letter-spacing: 2px;
-}
 
 #container {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
   height: 80vh;
-  overflow: hidden;
+  overflow: hidden; 
+   }
+
+.div1 {
+  margin: 280px 30px 30px 40px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.h2{
+font-size: 50px;
+}
+
+#link1 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn{
+  padding: 5px 20px;
 }
 
 #div2 {
@@ -34,36 +44,25 @@
   margin-top: 200px;
   letter-spacing: 1px;
   padding: 50px 130px;
-  /*width: 100%;*/
   line-height: 35px;
   font-size: 17px;
 }
-
 #head {
   font-size: 40px;
-  text-align: center;
-}
+  text-align: center}
 
-.sub {
-  background-color: #fff;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 58vh 58vh 58vh;
-  column-gap: 30px;
-  padding-left: 25px;
-  letter-spacing: 1px;
-}
-
-#maindiv {
+  #maindiv {
   background-image: url(./asset/background2.png);
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   margin-top: 50px;
+  height: 85vh;
+  padding: 40px 40px 40px 40px;
+  
 }
+
 
 #para {
   word-spacing: 5px;
@@ -73,7 +72,6 @@
 }
 
 #head2 {
-  /*width: 100%;*/
   text-align: center;
   padding-top: 25px;
 }
@@ -84,10 +82,8 @@
   margin-bottom: 20px;
 }
 
-#link1 {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
+.img2{
+  margin-left: 50px;
 }
 
 #bigbox {
@@ -109,44 +105,126 @@
   margin-top: 30px;
 }
 
-/* Extra small devices (phones, 600px and down) */
+#column{
+  margin: 0px 0px 0px 90px;
+}
+
+
 @media only screen and (max-width: 600px) {
  .navbar .nav-item {
 	display: flex;
 	justify-content: right;
-	
- }
+	}
+	.navbar .navbar-brand .image { 
+		width: 25%;}
+  .div1{
+     margin: 30px 20px 20px 20px;             
+	}
+  .navbar .navbar-toggler{
+    width: 12%;
+  }
+  .h2{
+    font-size: 15px;
+  }
+  .btn .link{
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+  #div2{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 8px;
+    height: 40vh;
+  
+    margin-top: 10px;
+  }
+  #container{
+    height:20vh;
+  }
+
+  #head{
+    font-size: 25px;
+    
+  }
+  
+
+#maindiv{
+  height: 130vh;
+  padding-left: 8px;
+}
+#para {
+  
+  padding: 3px;
+  font-size: 13px;
+  line-height: 20px;
+}
+#head2 {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+}
+.img2{
+  width: 60px;
+  margin-left: 15px;
+}
+#btn2 {
+  margin-left: 20px;
+  padding: 0px 8px 0px 8px;
+  margin-bottom: 0px;
+}
+#link1{
+  font-size: 8px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+#bigbox {
+  margin-top: 100px;
+}
+
+#smallbox {
+  margin: 30px;
+  padding: 60px 10px 20px 60px;
+}
+
+#impact {
+  width: 40%;
+  font-size: 20px;
+  font-weight: 10px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+#row1{
+  height: 120vh;
+}
+
+#column{
+  margin: 10px 0px 0px 70px;
+}
+}
 @media only screen and (min-width: 600px) {
   .navbar .nav-item {
 	display: flex;
 	justify-content: right;
-	
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+	}
+  /* #div2{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 8px;
+    height: 40vh;
   
+    margin-top: 10px;
+  }
+  #container{
+    height:20vh;
+  } */
+ 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
- .navbar .nav-item .dropdown-menu{
-	display: none;
- }
- /* .navbar .nav-item:hover .nav-link{
-
- } */
- .navbar .nav-item:hover .dropdown-menu {
-	display: block;
- }
- .navbar .nav-item .dropdown-menu{
-	margin-top:0;
- }
+ .navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+  
