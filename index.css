@@ -29,6 +29,11 @@
 font-size: 50px;
 }
 
+.link{
+text-decoration: none;
+color: #fff;
+}
+
 #link1 {
   color: #fff;
   text-decoration: none;
@@ -205,17 +210,6 @@ font-size: 50px;
 	display: flex;
 	justify-content: right;
 	}
-  /* #div2{
-    font-size: 12px;
-    line-height: 20px;
-    padding: 8px;
-    height: 40vh;
-  
-    margin-top: 10px;
-  }
-  #container{
-    height:20vh;
-  } */
  
 }
 
