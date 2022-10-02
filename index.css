@@ -63,7 +63,7 @@ color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   margin-top: 50px;
-  height: 85vh;
+  height: 95vh;
   padding: 40px 40px 40px 40px;
   
 }
@@ -91,8 +91,12 @@ color: #fff;
   margin-left: 30px;
 }
 
+#maincontainer{height: 80vh;
+}
+
 #bigbox {
-  margin-top: 100px;
+  margin-top: 120px;
+  height: 40vh;
 }
 
 #smallbox {
@@ -121,6 +125,62 @@ color: #fff;
 .para2{
   font-size: 18px;
 }
+
+#youtubediv{
+  height: 75vh;
+  background-color: aquamarine;
+  color: white;
+text-align: center;
+margin-top: 50px;
+justify-content: space-around;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+}
+
+.youtubecontainer{
+display: flex;
+align-items: center;
+justify-content: space-between
+}
+
+#alumni{
+  margin: 50px;
+  align-self: center;
+}
+
+.youtube{
+  margin: 0px 25px 0px 25px;
+  text-align: center;
+  
+} 
+
+.but{
+  color: #fff;
+  background-color: yellow;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+#portfolio{
+text-align: center;
+}
+
+#portfolio2{
+text-align: center;
+}
+
+.carousel{
+  height: 50vh;
+  padding-top: 60px;
+  line-height: 50px;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
  .navbar .nav-item {
@@ -164,6 +224,7 @@ color: #fff;
   height: 130vh;
   padding-left: 8px;
 }
+
 #para {
   
   padding: 3px;
@@ -175,25 +236,30 @@ color: #fff;
   padding-top: 15px;
   font-size: 15px;
 }
+
 .img2{
   width: 60px;
   margin-left: 15px;
 }
+
 #btn2 {
   margin-left: 20px;
   padding: 0px 8px 0px 8px;
   margin-bottom: 0px;
 }
+
 #link1{
   font-size: 8px;
 }
 
 #bigbox {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 1 0px;
+  height: 100vh;
 }
 
 #smallbox {
-  margin: 30px;
+  margin: 15px;
   padding: 60px 10px 20px 110px;
 }
 
@@ -223,8 +289,42 @@ color: #fff;
   font-size: 14px;
 }
 
+.youtubecontainer{
+    flex-direction: column;
+
+}
+#youtubediv{
+    margin-top: 80px;
+    height: 110vh;
+
 }
 
+#maincontainer{
+height: 120vh;
+}
+
+#iyou{
+  width: 250;
+  height: 256;
+}
+
+.but{
+
+  padding: 10px 30px;
+  font-size: 15px;
+}
+
+#portfolio2{ 
+  font-size: 12px;
+}
+
+.carousel{
+  line-height: 20px;
+}
+
+}
+
+ 
 @media only screen and (min-width: 600px) {
   .navbar .nav-item {
 	display: flex;
@@ -240,5 +340,10 @@ color: #fff;
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+
+/* .owl-image {
+  width: 200px !important;
+  object-fit: cover;
+} */
 
   
