@@ -1,354 +1,570 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeltWater</title>
+    <link rel="icon" type="image/ico" href="./asset/favicon5.ico" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MeltWater</title>
-	<link rel="icon" type="image/ico" href="./asset/favicon5.ico">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-	<link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-		integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-		integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <body class="font">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid navbar-header">
+        <a class="navbar-brand pl-3" href="#">
+          <img src="./asset/mestlogo.png" class="image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#clementnav"
+          aria-controls="clementnav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          id="clementnav"
+          class="collapse navbar-collapse justify-content-end"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"> MAC </a>
+            </li>
 
-</head>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                TRAINING
+              </a>
 
-<body class="font">
-	<nav class="navbar sticky-top navbar-expand-lg bg-light  ">
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    MEST Africa Training Program</a
+                  >
+                </li>
 
-		<div class="container-fluid navbar-header">
+                <li>
+                  <a class="dropdown-item" href="#"> Pre-MEST</a>
+                </li>
+              </ul>
+            </li>
 
-			<a class="navbar-brand pl-3 " href="#">
-				<img src="./asset/mestlogo.png" class="image ">
-			</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#clementnav"
-				aria-controls="clementnav" aria-expanded="true" aria-label="Toggle navigation">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                FUNDING AND ACCELERATORS
+              </a>
 
-				<span class="navbar-toggler-icon"></span>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"> MEST Seed</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> MEST Express</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> MEST Scale</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                COMMUNITY
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Upcoming Events</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Hubs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Community Programs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Sucess Stories </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                NEWS & RESOURCES
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"> MEST Updates</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Reports and Resources</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Ecosytem Insights</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> PARTNERSHIPS </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div id="container">
+        <video autoplay="autoplay" muted="muted" loop="loop" id="video1">
+          <source src="./asset/video.mp4" type="video/mp4" />
+        </video>
 
-			</button>
-			<div id="clementnav" class="collapse navbar-collapse  justify-content-end ">
-				<ul class="navbar-nav ">
+        <div class="div1">
+          <p class="h2">
+            Become a globally <br />
+            successful tech <br />
+            entrepreneur <br />
+          </p>
+          <button class="btn">
+            <a href="#" class="link"> Apply</a>
+          </button>
+        </div>
+      </div>
+    </section>
 
-					<li class="nav-item ">
+    <div class="container" id="div2">
+      <p class="h3" id="head">What we do</p>
+      <p>
+        MEST is an Africa-wide technology enterpreneur training program,
+        internal seed fund, and network of hubs offering incubation for
+        technology startups in Africa.
+      </p>
 
-						<a class="nav-link active" aria-current="page" href="#">
-							MAC
-						</a>
-					</li>
+      <p id="break">
+        For young aspiring and established African entrepreneurs, MEST Africa
+        provides the skills, mindset, and provides the skills, mindset, and
+        experiences to build a globally successful tech company. Beyond tech and
+        entrepreneurial skills training, MEST Africa provides a real-world
+        advantage to entreprneurs through funding, business incubation, and
+        access to a global tech network.
+      </p>
+    </div>
 
-					<li class="nav-item dropdown">
+    <div class="container-fluid" id="maindiv">
+      <div class="container-fluid row" id="row1">
+        <div
+          class="col col-sm-3 col-md-3 col-lg-3 col-xl-3 bg-white"
+          id="column"
+        >
+          <img src="./asset/picture 1.png" class="img2" />
+          <p class="h4" id="head2">
+            We provide skills in Tech Entrepreneurship
+          </p>
+          <p id="para">
+            Prepare yourself for the rigors of entrepreneurship with our fully
+            sponsored, graduate-level program in Software Development and
+            Business
+          </p>
 
-						<a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							TRAINING
-						</a>
+          <button class="btn btn-info" id="btn2">
+            <a href="#" id="link1"> Learn More </a>
+          </button>
+        </div>
 
-						<ul class="dropdown-menu">
+        <div
+          class="col col-sm-3 col-md-3 col-lg-3 col-xl-3 bg-white"
+          id="column"
+        >
+          <img src="./asset/picture2.png" class="img2" />
 
-							<li>
-								<a class="dropdown-item" href="#"> MEST Africa Training Program</a>
-							</li>
+          <p class="h4" id="head2">
+            We support early-stage startups to take off
+          </p>
 
-							<li>
-								<a class="dropdown-item" href="#"> Pre-MEST</a>
-							</li>
+          <p id="para">
+            Get the opportunity to launch your technology business with seed
+            funding between $50k-$250k, incubation, and access to a global tech
+            community.
+          </p>
 
-						</ul>
-					</li>
+          <button class="btn" id="btn2">
+            <a href="#" id="link1"> Learn More </a>
+          </button>
+        </div>
 
-					<li class="nav-item dropdown">
-						<a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							FUNDING AND ACCELERATORS
-						</a>
+        <div
+          class="col col-sm-3 col-md-3 col-lg-3 col-xl-3 bg-white"
+          id="column"
+        >
+          <img src="./asset/picture3.png" class="img2" />
+          <p class="h4" id="head2">
+            We bring the tech & startup community together
+          </p>
 
-						<ul class="dropdown-menu">
-							<li>
-								<a class="dropdown-item" href="#"> MEST Seed</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> MEST Express</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> MEST Scale</a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown ">
-						<a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							COMMUNITY
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a class="dropdown-item" href="#">Upcoming Events</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> Hubs</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> Community Programs</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> Sucess Stories </a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							NEWS & RESOURCES
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a class="dropdown-item" href="#"> MEST Updates</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> Reports and Resources</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#"> Ecosytem Insights</a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							PARTNERSHIPS
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<section>
-		<div id="container">
-			<video autoplay="autoplay" muted="muted" loop="loop" id="video1">
-				<source src="./asset/video.mp4" type="video/mp4">
-			</video>
+          <p id="para">
+            Our Hubs provide startups with business support & networking across
+            the startup lifecycle and also serve as ecosystem centers for the
+            tech community.
+          </p>
 
-			<div class="div1">
-				<p class="h2">
-					Become a globally <br> successful tech <br> entrepreneur <br>
-				</p>
-				<button class="btn bg-info">
-					<a href="#" class="link"> Apply</a>
-				</button>
-			</div>
+          <button class="btn btn-info" id="btn2">
+            <a href="#" id="link1"> Learn More </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="maincontainer">
+      <div id="impact" class="border-bottom border-dark">Our impact</div>
 
-		</div>
-	</section>
+      <div class="container-fluid row justify-content-center" id="bigbox">
+        <div
+          class="col-md-2 col-sm-2 col-lg-2 border border-5 border-dark"
+          id="smallbox"
+        >
+          <h3 class="hd3">1000+</h3>
 
-	<div class="container " id="div2">
-		<p class="h3" id="head">What we do</p>
-		<p>MEST is an Africa-wide technology enterpreneur training program, internal seed fund, and network of hubs
-			offering incubation for technology startups in Africa. </p>
+          <p class="para2">People Trained</p>
+        </div>
 
-		<p id="break"> For young aspiring and established African entrepreneurs, MEST Africa provides the skills,
-			mindset, and provides the skills, mindset, and experiences to build a globally successful tech company.
-			Beyond tech and entrepreneurial skills training, MEST Africa provides a real-world advantage to entreprneurs
-			through funding, business incubation, and access to a global tech network.</p>
+        <div
+          class="col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark"
+          id="smallbox"
+        >
+          <h3 class="hd3">80+</h3>
+          <p class="para2">Businesses Funded</p>
+        </div>
 
-	</div>
+        <div
+          class="col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark"
+          id="smallbox"
+        >
+          <h3 class="hd3">30</h3>
+          <p class="para2">Countries reached</p>
+        </div>
 
-	<div class="container-fluid" id="maindiv">
+        <div
+          class="col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark"
+          id="smallbox"
+        >
+          <h3 class="hd3">750+</h3>
+          <p class="para2">Jobs Created</p>
+        </div>
+      </div>
+    </div>
 
-		<div class=" container-fluid row " id="row1">
+    <div class="container-fluid" id="youtubediv">
+      <div class="alumni">
+        <p class="h3" id="alumni">Alumni success story</p>
+      </div>
+      <div class="youtubecontainer">
+        <div class="youtube">
+          <iframe
+            id="iyou"
+            width="400"
+            height="256"
+            src="https://www.youtube.com/embed/HxSj5YrQ40c"
+            title="ALUMNI SPOTLIGHT: Seth Akumani"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="youtube">
+          <iframe
+            id="iyou"
+            width="400"
+            height="256"
+            src="https://www.youtube.com/embed/zXmqnw8GD6o"
+            title="ALUMNI SPOTLIGHT: Richard Brandt"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="youtube">
+          <iframe
+            id="iyou"
+            width="400"
+            height="256"
+            src="https://www.youtube.com/embed/n946v90SEU4"
+            title="Alumni Spotlight: Lady-Omega Hammond"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <button class="but">Get Inspired</button>
+    </div>
 
-			<div class=" col col-sm-3 col-md-3 col-lg-3 col-xl-3 bg-white" id="column">
-
-				<img src="./asset/picture 1.png" class="img2">
-				<p class="h4" id="head2">
-					We provide skills in Tech Entrepreneurship
-				</p>
-				<p id="para">Prepare yourself for the rigors of entrepreneurship with our fully sponsored,
-					graduate-level program in Software Development and Business</p>
-
-				<button class="btn btn-info" id="btn2">
-
-					<a href="#" id="link1"> Learn More </a>
-
-				</button>
-			</div>
-
-			<div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3  bg-white" id="column">
-
-				<img src="./asset/picture2.png" class="img2">
-
-				<p class="h4" id="head2">
-					We support early-stage startups to take off
-				</p>
-
-				<p id="para"> Get the opportunity to launch your technology business with seed funding between
-					$50k-$250k, incubation, and access to a global tech community.</p>
-
-				<button class="btn btn-info" id="btn2">
-
-					<a href="#" id="link1"> Learn More </a>
-
-				</button>
-
-			</div>
-
-			<div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3  bg-white" id="column">
-				<img src="./asset/picture3.png" class="img2">
-				<p class="h4" id="head2">
-					We bring the tech & startup community together
-
-				</p>
-
-				<p id="para"> Our Hubs provide startups with business support & networking across the startup lifecycle
-					and also serve as ecosystem centers for the tech community.</p>
-
-				<button class="btn btn-info" id="btn2">
-
-					<a href="#" id="link1"> Learn More </a>
-
-				</button>
-			</div>
-
-		</div>
-	</div>
-	<div class="container-fluid" id="maincontainer">
-
-		<div id="impact" class="border-bottom border-dark "> Our impact </div>
-
-		<div class="container-fluid row justify-content-center" id="bigbox">
-
-			<div class=" col-md-2 col-sm-2 col-lg-2 border border-5 border-dark" id="smallbox">
-
-				<h3 class="hd3">1000+</h3>
-
-				<p class="para2"> People Trained</p>
-			</div>
-
-			<div class=" col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark" id="smallbox">
-				<h3 class="hd3">80+</h3>
-				<p class="para2">Businesses Funded</p>
-			</div>
-
-			<div class=" col-md-2  col-sm-2 col-lg-2 col-xl-2 border border-5  border-dark" id="smallbox">
-				<h3 class="hd3">30</h3>
-				<p class="para2">Countries reached</p>
-			</div>
-
-			<div class=" col-md-2 col-sm-2 col-lg-2 col-xl-2 border border-5 border-dark" id="smallbox">
-				<h3 class="hd3"> 750+ </h3>
-				<p class="para2">Jobs Created</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid" id="youtubediv">
-		<div class="alumni">
-			<p class="h3" id="alumni"> Alumni success story</p>
-		</div>
-		<div class="youtubecontainer">
-			<div class="youtube">
-				<iframe id="iyou" width="400" height="256" src="https://www.youtube.com/embed/HxSj5YrQ40c"
-					title="ALUMNI SPOTLIGHT: Seth Akumani" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="youtube">
-				<iframe id="iyou" width="400" height="256" src="https://www.youtube.com/embed/zXmqnw8GD6o"
-					title="ALUMNI SPOTLIGHT: Richard Brandt" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-			<div class="youtube">
-				<iframe id="iyou" width="400" height="256" src="https://www.youtube.com/embed/n946v90SEU4"
-					title="Alumni Spotlight: Lady-Omega Hammond" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
+    <div class="carousel">
+      <p class="h3" id="portfolio">Our Portfolio</p>
+      <p id="portfolio2">
+        80+ software companies tackling Africa's biggest problems across
+        industries
+      </p>
+      <div id="one" class="owl-carousel">
+        <img class="owl-image" src="./asset/mestbranchlogo.4.png" />
+        <img class="owl-image" src="./asset/mestbranchlogo.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo0.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo1.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo3.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo5.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo6.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo7.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo8.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo9.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo11.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo12.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo13.jpg" />
+        <img class="owl-image" src="./asset/mestbranchlogo15.png" />
+        <img class="owl-image" src="./asset/mestbranchlogo16.png" />
+      </div>
+    </div>
+<div class="update">
 	
+		Latest Updates
+</div>
+
+    <div class="carousel-card container ">
+      <div id="two" class="owl-carousel">
+        <div class="row">
+          <div class="col col-md-4 col-sm-3" style="position: relative;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
+
 			</div>
-		</div>
-		<button class="but">
-			Get Inspired
-		</button>
-	</div>
-	
-	
-	<div class="carousel">
-		<p class="h3" id="portfolio">
-			Our Portfolio
-		</p>
-		<p id="portfolio2"> 80+ software companies tackling Africa's biggest problems across industries</p>
-		<div class="owl-carousel">
-			<img class="owl-image" src="./asset/mestbranchlogo.4.png">
-			<img class="owl-image" src="./asset/mestbranchlogo.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo0.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo1.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo3.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo5.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo6.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo7.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo8.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo9.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo11.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo12.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo13.jpg">
-			<img class="owl-image" src="./asset/mestbranchlogo15.png">
-			<img class="owl-image" src="./asset/mestbranchlogo16.png">
-	
-		</div>
-	</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/blog.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4" style="position:relative ;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
 
-	<div>
-		 
-	</div>
+			</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/blog.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 col-sm-3 " style="position: relative ;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
 
+			</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/Ecosystemmest.jpg" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-4 col-sm-3" style="position:relative ;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
 
+			</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/blog2.jpg" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 col-sm-3" style="position:relative ;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
 
+			</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/blog3.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 col-sm-3" style="position: relative;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
 
+			</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/blog4.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-4 col-sm-3" style="position: relative ;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
+				</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/bolg5.jpg" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 col-sm-3" style="position:relative;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;"> 
+				</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/blog6.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 col-sm-3" style="position:relative ;">
+			<div class="card card-hover" style="width: 24rem; height: 20rem;">
+				</div>
+            <div class="card" style="width: 24rem">
+              <img src="./asset/melisablog.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mest Training Program Updates - Extension & New Dates
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-
-
-
-
-
-	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-		integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"> </script>
-	
-	<script>
-		$(document).ready(function () {
-			$(".owl-carousel").owlCarousel({
-				autoplay: true,
-				loop: true,
-				margin: 10,
-				responsiveClass: true,
-				responsive: {
-					0: {
-						items: 3,
-						nav: true
-					},
-					600: {
-						items: 6,
-						nav: false
-					},
-					1000: {
-						items: 6,
-						nav: true,
-						loop: true
-					}
-				}
-			});
-		});
-	</script>
-</body>
-
+    <script>
+      $(document).ready(function () {
+        $("#two").owlCarousel({
+          autoplay: true,
+          loop: true,
+          margin: 10,
+          responsiveClass: true,
+          animateOut: 'fadeOut',
+          responsive: {
+            0: {
+              items: 1,
+              nav: false,
+            },
+            600: {
+              items: 1,
+              nav: false,
+            },
+            1000: {
+              items: 1,
+              nav: false,
+              loop: true,
+            },
+          },
+        });
+        $("#one").owlCarousel({
+          autoplay: true,
+          loop: true,
+          margin: 10,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 3,
+              nav: false,
+            },
+            600: {
+              items: 6,
+              nav: false,
+            },
+            1000: {
+              items: 6,
+              nav: false,
+              loop: true,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
 </html>
