@@ -208,9 +208,26 @@ text-align: center;
 
   .prefooter{
   background-color: rgb(92,188,188) ;
-  height: 40vh;
+  height: 45vh;
   margin-top: 50px;
   position: relative;
+ }
+
+ .formin{
+  width: 500px;
+  position: absolute;
+  right: 250px;
+  top: 100px;
+
+ }
+
+ .input{
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: rgb(92,188,188);
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
  }
 
 
@@ -379,6 +396,13 @@ height: 120vh;
   top: 60px;
   left: 50px;
   padding-left: 30px;
+ }
+
+ .formin{
+  width: 300px;
+  position: absolute;
+  right: 60px;
+  top: 200px;
  }
 
 
