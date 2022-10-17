@@ -324,6 +324,10 @@ height: 120vh;
   line-height: 20px;
 }
 
+/* .carousel-card{
+  margin-left: 50px;
+  font-size: 10px;
+} */
 
 }
 
@@ -367,7 +371,20 @@ height: 120vh;
 }
 
 .carousel-card{
-  height: 60vh;
+  height: 80vh;
+  font-size: ;
 }
 
+.readbut{
+  border: none;
+  background-color: rgb(92,188,188);
+  padding: 15px 40px ;
+  margin-left: 600px;
+  margin-top: 80px;
+  color: #fff;
+ }
 
+ .prefooter{
+  background-color: rgb(92,188,188) ;
+  height: 50vh;
+ }
