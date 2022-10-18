@@ -230,6 +230,15 @@ text-align: center;
   margin-bottom: 5px;
  }
 
+ #btnsub{
+  background-color: rgb(242,187,67);
+  border: none;
+  color: #fff;
+  padding: 10px 35px;
+  position: absolute;
+  right: 125px;
+  top: 210px;
+ }
 
 
 
@@ -403,6 +412,10 @@ height: 120vh;
   position: absolute;
   right: 60px;
   top: 200px;
+ }
+
+ .prefooter{
+  height: 55vh;
  }
 
 
