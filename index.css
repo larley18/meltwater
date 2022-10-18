@@ -197,7 +197,7 @@ text-align: center;
   line-height: 45px;
   font-size: 30px;
   position: absolute;
-  top: 100px;
+  top: 80px;
   left: 250px;
   padding-left: 30px;
  }
@@ -208,7 +208,7 @@ text-align: center;
 
   .prefooter{
   background-color: rgb(92,188,188) ;
-  height: 45vh;
+  height: 48vh;
   margin-top: 50px;
   position: relative;
  }
@@ -217,7 +217,7 @@ text-align: center;
   width: 500px;
   position: absolute;
   right: 250px;
-  top: 100px;
+  top: 80px;
 
  }
 
@@ -287,6 +287,29 @@ top: 40px;
 .lifoot{
   list-style: none;
   margin-bottom: 15px;
+}
+
+.imgdiv{
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+
+.finalimg{
+  width: 25px;
+  margin-left: 20px;
+}
+
+.lifoot2{
+  list-style: none;
+  display: inline;
+  margin-left: 12px;
+}
+
+.final{
+  position: absolute;
+  right: 90px;
+  top: 80px;
 }
 
 
@@ -488,6 +511,16 @@ height: 120vh;
   position: absolute;
 right: 50px;
 top: 200px;
+}
+
+.imgdiv{
+  right: 100px;
+  top: 350px;
+}
+
+.final{
+  right: 90px;
+  top: 400px;
 }
 
 
